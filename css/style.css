@@ -1,0 +1,121 @@
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-color: rgb(61, 55, 55);
+	color: #fff;
+}
+h1 {
+	color: yellow;
+	text-transform: uppercase;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+.drink__text {
+	color: yellow;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+}
+
+.drink {
+	margin: 50px 0px 0px 0px;
+}
+.drink__row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	min-height: 500px;
+/
+}
+.drink__column {
+	flex: 1 1 20%;
+	padding: 0px 10px;
+	margin: 10px 10px;
+	min-height: 500px;
+	border: 2px dashed yellow;
+}
+@media (max-width: 600px) {
+	.drink__column {
+		flex: 1 1 90%;
+	}
+	.drink__row {
+		margin: 0px 0px;
+	}
+}
+.drink__button {
+	margin: 0px 0px 30px 0px;
+	text-align: center;
+}
+.drink__item {
+	width: 150px;
+	height: 40px;
+}
+.drink__form {
+	display: flex;
+	flex-direction: column;
+}
+.drink__form.none {
+	display: none;
+}
+.drink__name {
+	height: 30px;
+	font-size: 20px;
+	margin: 0px 0px 20px 0px;
+}
+.drink__alc {
+	margin: 0px 0px 20px 0px;
+}
+.drinc__recipe {
+	height: 100px;
+	font-size: 20px;
+	margin: 0px 0px 20px 0px;
+	width: 98%;
+}
+.drink__res {
+	margin: 0px auto;
+	width: 150px;
+	height: 40px;
+}
+.drink__seach {
+	height: 30px;
+	font-size: 20px;
+	margin: 0px 0px 20px 0px;
+}
+.drink__seachres {
+	margin: 0px auto;
+	width: 150px;
+	height: 40px;
+}
+.drink__seachtext {
+	font-size: 20px;
+	margin: 20px 0px 0px 0px;
+	width: 100%;
+}
+
+.drink__seachdel {
+	height: 30px;
+	font-size: 20px;
+	margin: 0px 0px 20px 0px;
+}
+
+.drink__del {
+	margin: 0px auto;
+	width: 150px;
+	height: 40px;
+}
+.drink__seachtextdel {
+	font-size: 20px;
+	margin: 20px 0px 0px 0px;
+}
+.drink__all {
+	margin: 0px auto;
+	width: 150px;
+	height: 40px;
+}
+.drink__allres {
+	font-size: 20px;
+	margin: 20px 0px 0px 0px;
+}
